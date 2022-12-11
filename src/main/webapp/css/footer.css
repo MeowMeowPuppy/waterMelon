@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.footer{
+	text-align: center;
+	height: 200px;
+	width: 99%;
+	box-sizing: border-box;
+	z-index: 100;
+	background-color: white;
+}
+.footer_info{
+	position:relative;
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+}
+
+.footer_link{
+	height:50px;
+	width:100%;
+	position : relative;
+	box-sizing: border-box;
+}
+
+.footer_link li{
+	float:left;
+	list-style: none;
+}
+p span{
+	font-size: 12px;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#wrap {
+	padding: 10px;
+	width: 500px;
+	height: 250px;
+	background-color: #8C8C8C;
+}
+
+div#box {
+	background: white;
+}
+
+th, td {
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#top {
+	border-bottom: 0.5px solid #5D5D5D;
+}
+#button{
+	margin: 5px;
+}
+
+div#download_bar {
+	margin: 10px;
+	width: 500px;
+	color: white;
+}
+
+input#purchase {
+	margin: 5px;
+	background: #6799FF;
+	color: white;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: 1px center;
+	width: 75px;
+	height: 30px;
+	border: 0px;
+}
+
+input#cancel {
+	margin: 5px;
+	background: white;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: 1px center;
+	width: 75px;
+	height: 30px;
+	border: 0px;
+}

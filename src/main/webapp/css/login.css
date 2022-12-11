@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.btn_login03 {
+ 	background: #EF6161 !important;
+ }
+ #wrap.login {
+    min-height: 0% !important; 
+    min-width: 550px !important;
+    background : #fff !important;
+}
+.login_input_area02.style02 .txt_error {
+    color: #000000 !important;
+}
+.box_check02 .label_check {
+	font-size: 13px !important;
+}
+body {
+	font-size: 13px !important;
+}
+img{ 
+	cursor: pointer !important;
+}

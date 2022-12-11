@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body {
+	background-color: white;
+	font-size: 13px !important;
+}
+
+#content {
+	margin: 0 auto;
+	width: 450px;
+	table-layout: fixed;
+}
+
+td, th {
+	width: 100%;
+}
+
+th {
+	text-align: left;
+	padding-left: 10px !important;
+}
+
+caption {
+	font-size: 40px;
+	color: #1DDB16;
+	font-weight: bold;
+}
+
+input {
+	width: 90%;
+	margin: 5px;
+	height: 40px !important;
+}
+
+#birth td {
+	all: initial;
+}
+
+#birth select {
+	margin-left: 4px;
+	margin-top: 10px;
+	height: 42px;
+	width: 130px;
+}
+#email {
+	width: 247px !important;
+}
+.emailSpan{
+	position: relative;
+	margin-left: 5px;
+	margin-right: 3px;
+	color: gray;
+	top: 8px;
+	
+}
+#birth input {
+	height: 38px;
+	width: 125px;
+	margin: 10px 0px 0px 5px;
+}
+
+#gender select {
+	height: 45px;
+	width: 420px;
+	margin-left: 5px;
+}
+
+#mobile {
+	all: initial;
+}
+
+#mobile input, #mobile td {
+	width: 300px;
+}
+
+#mobile button {
+	margin-top: 5px;
+	width: 95px;
+	height: 42px;
+	background-color: #EF6161;
+	color: white;
+	border: 1px gray;
+	font-size: 12px;
+}
+
+.number {
+	margin-bottom: 8px;
+	width: 420px;
+	height: 38px;
+	margin-left: 5px;
+}
+
+button[type="button"] {
+	width: 420px;
+	height: 50px;
+	background-color: #EF6161;
+	color: white;
+	border: 1px gray;
+	margin-left: 5px;
+}
+
+#id_msg {
+	font-size: 13px;
+	color: red;
+	position: relative;
+	top: -20px;
+	left: 10px;
+}
+/* #pw_msg{font-size:11px; color:red; position:relative; top:-30px; left: 10px; border: 2px solid red;} */
+#co_msg {
+	font-size: 13px !important;
+	color: red;
+	position: relative;
+	top: -20px;
+	left: 10px;
+}
+
+#name_msg {
+	font-size: 13px !important;
+	color: red;
+	position: relative;
+	top: -20px;
+	left: 10px;
+}
+
+#birth_msg {
+	font-size: 13px !important;
+	color: red;
+	position: relative;
+	top: -15px;
+	left: 10px;
+}
+
+#gender_msg {
+	font-size: 13px;
+	color: red;
+	position: relative;
+	top: -15px;
+	left: 10px;
+}
+
+#mobile_msg {
+	font-size: 13px !important;
+	color: red;
+	position: relative;
+	top: -20px;
+	left: 10px;
+}
+#email_msg {
+	font-size: 13px;
+	color: red;
+	position: relative;
+	top: -15px;
+	left: 10px;
+}
+
+#pw_msg1 {
+	font-size: 14px;
+	display: block;
+	width: 70px;
+	color: red;
+	position: relative;
+	top: -35px;
+	left: 30px;
+}
+
+#pw_msg2 {
+	font-size: 13px;
+	color: red;
+	position: relative;
+	top: -20px;
+	left: 10px;
+}
+.logo {
+	margin-top: 68px;
+	margin-bottom: 30px;
+}
+input[type=text], input[type=password], input[type=url], input[type=email], input.text {
+	font-size: 13px !important;
+}
+/* #pw_msg1 img{width:20px;} */

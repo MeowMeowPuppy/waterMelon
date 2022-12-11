@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	font-family: "맑은 고딕";
+	text-decoration: none;
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color:#EF6161;
+}
+
+body{
+	position: relative;
+}
+h1 label{
+	font-size: 16px;
+	color: #BDBDBD;
+}
+
+body::-webkit-scrollbar{
+	display: none;
+}
+#music_title{
+	font-size: 14px;
+	color: black;
+}
+.content{
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+
+.tableList .trackTitle{
+	width:240px;
+	display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0px;
+    position: absolute;
+    top : 35%;
+}
+
+.trackTitle{
+	text-align: left;
+}
+
+.tableList .album_box{
+	position : absolute;
+	width:140px;
+	display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0px;
+    top : 35%;
+}
+.main{
+	width: 1000px;
+	margin: auto;
+	height : 100%;
+	box-sizing: border-box;
+	padding: 250px 20px 0px 20px;
+}
+
+.content::-webkit-scrollbar{
+	display: none;
+}
+
+.tableList{
+	width: 1000px;
+	height: 800px;
+	text-align: center;
+	border-collapse: collapse;
+}
+tr{
+	height: 100px;
+	border-bottom: 1px solid #BDBDBD !important;
+	position: relative;
+}
+i{
+	cursor: pointer;
+}
+
+#lyrics_empty{
+	color: #BDBDBD;
+}
+#lyrics{
+	color:black;
+}
+td{
+	text-align: center;
+	height: 100px;
+	position: relative;
+	font-size: 16px;
+}
+
+.trackTitle label{
+	color : #BDBDBD;
+	font-size: 12px;
+}
+
+.album{
+	height: 60px;
+	width: 60px;
+}
+
+.add_play_button{
+	margin:0px;
+	border: none;
+	background: none;
+}
+#no_access_download, #no_access_mv  {
+	color : silver;
+}
+#no_access_play{
+	color:black;
+}
+button{
+	background-color: white;
+	border : none;
+}
